@@ -1,0 +1,41 @@
+-Classes:
+  - Two classes are implemented: `Bank` and `Client`.
+  - `Bank` class has a name and a database (list of dictionaries).
+  - `Client` class is responsible for individual client account operations.
+
+-Initialization:
+  - An instance of the `Bank` class is created initially.
+
+-User Options:
+  - Users are given options:
+    - Create a new bank account.
+    - Open an existing account.
+    - Exit the program.
+
+-Account Creation:
+  - If the user chooses to create an account:
+    - Prompts for name and initial deposit.
+    - Input is passed to the `__init__` method of the `Client` class.
+    - Generates a unique 5-digit account number using a random number between 10000 and 99999.
+    - Client object is added to the bank's database.
+
+-Authentication:
+  - If the user chooses to open an existing account:
+    - Prompts for name and account number for authentication.
+    - Inputs are passed to the `authentication` method of the `Bank` class.
+    - If credentials exist in the bank database, a `current_client` variable is created.
+
+-Account Operations:
+  - After authentication, users can perform operations:
+    - Withdraw funds.
+    - Deposit funds.
+    - Check account balance.
+    - Exit to the main menu.
+
+-Implementation Notes:
+  - Client account numbers serve as passwords for authentication.
+
+- **User Interface:**
+  - Menu-driven interface with clear options for the user.
+
+This summary captures the main features and flow of your simple banking system project.
