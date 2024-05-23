@@ -4,7 +4,7 @@
 The objective of this project is to develop a command-line Employee Management System using Python that allows a company to manage information about their employees and departments using object-oriented programming (OOP) and data structures.
 
 ## Requirements
-(-) Python and OOPS concepts
+Python and OOPS concepts
 
 ### Employee Class
 - Create an `Employee` class with attributes for name, ID, title, and department.
