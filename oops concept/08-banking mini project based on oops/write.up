@@ -35,7 +35,5 @@
 -Implementation Notes:
   - Client account numbers serve as passwords for authentication.
 
-- **User Interface:**
+-User Interface:
   - Menu-driven interface with clear options for the user.
-
-This summary captures the main features and flow of your simple banking system project.
