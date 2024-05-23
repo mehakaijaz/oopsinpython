@@ -1,21 +1,3 @@
-"""class User:
-    def __init__(self,name,age,gender):
-        self.name=name
-        self.age=age
-        self.gender=gender
-        
-    def show_account_details(self):
-        print('Account Details')
-        print('')
-        print(f'name: {self.name}\n age: {self.age}\n gender: {self.gender} ')
-        print("working")
-print(User)
-class BankAccount:
-    def __init__(self,initialAmount,accName):
-        self.balance=initialAmount
-        self.name=accName
-        print(f'account : "{self.name}" created.\nBalance ={self.balance}')"""
-        
 from client import Client
 from bank import Bank
 
